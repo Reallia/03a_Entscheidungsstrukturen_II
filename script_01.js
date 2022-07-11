@@ -49,3 +49,31 @@ else
 
 /************* Ternäre (ternary Schreibweise) *************/
 // console.log(isJohnOlder) ? "John is older" : "Mark is older";
+
+/************* IF - ELSE IF *************/
+
+if (isJohnOlder) 
+{
+    console.log("John ist älter!");
+} 
+else if(isJohnEqual)
+{
+    console.log("John ist gleich alt!");
+}
+// evnt. weitere Alternativ(n) else if(){}
+else //gemeinsamer else zweig
+{
+    console.log("John ist jünger!");
+}
+
+/************* Fallunterscheidung /SWITCH|Case 1 *************/
+
+switch (key)
+{
+    case value:
+
+        break;
+
+    default:
+        break;
+}
